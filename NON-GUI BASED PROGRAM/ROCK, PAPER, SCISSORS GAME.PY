@@ -26,36 +26,40 @@ def user_input():
     user=input("Your Choice?(1/2/3): ")
     if i=="1":
         if user=="1":
-            print(f"Computer: {i}")
+            print(f"Computer Output: {i}")
             print("Draw")
         elif user=="2":
-            print(f"Computer: {i}")
+            print(f"Computer Output: {i}")
             print("Winner")
         elif user=="3":
-            print(f"Computer: {i}")
+            print(f"Computer Output: {i}")
             print("Loser")
+        else:
+            print("---INVALID INPUT---")
     elif i=="2":
         if user=="1":
-            print(f"Computer: {i}")
+            print(f"Computer Output: {i}")
             print("Loser")
         elif user=="2":
-            print(f"Computer: {i}")
+            print(f"Computer Output: {i}")
             print("Draw")
         elif user=="3":
-            print(f"Computer: {i}")
+            print(f"Computer Output: {i}")
             print("Winner")
+        else:
+            print("---INVALID INPUT---")
     elif i=="3":
         if user=="1":
-            print(f"Computer: {i}")
+            print(f"Computer Output: {i}")
             print("Winner")
         elif user=="2":
-            print(f"Computer: {i}")
+            print(f"Computer Output: {i}")
             print("Loser")
         elif user=="3":
-            print(f"Computer: {i}")
+            print(f"Computer Output: {i}")
             print("Draw")
-    elif i!=i:
-        print("---INVALID INPUT---")
+        else:
+            print("---INVALID INPUT---")
 
 def again():
     play_again=input("Do You To Play Again?(y/n): ")
