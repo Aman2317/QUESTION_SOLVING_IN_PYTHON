@@ -11,14 +11,13 @@ Quiz_game = {
     "1) Naruto\n""2) Bleach\n""3) Onepiece\n""4) Hunter X Hunter"
 }
 
-score = 0
-
 print("-----Do You Want To Play A Quiz Game-----\n")
 
 # This will confirm user if they want to play
 play = input("Choose if you to play? (y/n): \n")
 if play == "y":
-        Name = input("Enter your name: ")
+        score = 0
+        Name = input("Enter your name: ") 
 else:
         exit()
 
@@ -29,6 +28,7 @@ print(f"{Quiz_game[1]}")
 A1 = input("Choose your option(1/2/3/4): ")
 if A1 == "2":
         print("Correct")
+        score += 1
 else:
         print("Incorrect")
 y1 = input("Do you want to continue?(y/n): ")
@@ -40,6 +40,7 @@ print(f"{Quiz_game[2]}")
 A2 = input("Choose your option(1/2/3/4): ")
 if A2 == "1":
         print("Correct")
+        score += 1
 else:
         print("Incorrect")
 y1 = input("Do you want to continue?(y/n): ")
@@ -51,10 +52,9 @@ print(f"{Quiz_game[3]}")
 A3 = input("Choose your option(1/2/3/4): ")
 if A3 == "3":
         print("Correct")
+        score += 1
 else:
         print("Incorrect")
-y1 = input("Do you want to continue?(y/n): ")
-while y1 != "y":
-        exit()
 
+print(f"Your Final Score is: {score}")
 print(f"-----Thanks For Playing-----")
