@@ -1,5 +1,6 @@
 # This code wll give a random die numbers.
 
+# Importing random library to use "randint".
 import random
 
 # This "randint" of "random" library will give random number between range x to y (x, y).
