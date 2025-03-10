@@ -26,24 +26,33 @@ def user_input():
     user=input("Your Choice?(1/2/3): ")
     if i=="1":
         if user=="1":
+            print(f"Computer: {i}")
             print("Draw")
         elif user=="2":
+            print(f"Computer: {i}")
             print("Winner")
         elif user=="3":
+            print(f"Computer: {i}")
             print("Loser")
     elif i=="2":
         if user=="1":
+            print(f"Computer: {i}")
             print("Loser")
         elif user=="2":
+            print(f"Computer: {i}")
             print("Draw")
         elif user=="3":
+            print(f"Computer: {i}")
             print("Winner")
     elif i=="3":
         if user=="1":
+            print(f"Computer: {i}")
             print("Winner")
         elif user=="2":
+            print(f"Computer: {i}")
             print("Loser")
         elif user=="3":
+            print(f"Computer: {i}")
             print("Draw")
     elif i!=i:
         print("---INVALID INPUT---")
