@@ -2,6 +2,7 @@
 # The formate of table should be in e.g. 2 x 2 = 4.
 
 import sys
+
 print("Hello! This Program will Print Multiplication Table")
 
 def table():
@@ -15,7 +16,10 @@ def again():
     x=input("Do you want to print another tabele?(y/n): ")
     if x=="y":
         final()
+    elif x=="n":
+        exit()
     else:
+        print("--INVALID INPUT--")
         exit()
 
 def exit():
