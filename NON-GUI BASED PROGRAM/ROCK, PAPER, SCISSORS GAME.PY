@@ -21,7 +21,7 @@ def user_input():
 
     random_num = random.randint(1, 3)
     i=(f"{random_num}")
-    print(i)
+    # print(i)
 
     user=input("Your Choice?(1/2/3): ")
     if i=="1":
